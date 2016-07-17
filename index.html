@@ -14,13 +14,31 @@
     <br>
     <br>
     <br>
-    <ul class="pageitem">
-    <li class="bigfield"><input placeholder="Minutes spent outside" name="name" type="text" /></li>
   </head>
   <body>
     <li class="checkbox">
     <span class="name">Did exercise today?</span>
     <input name="didexercisetoday" type="checkbox" />
     </li>
+    <span class="graytitle">Types of Exercise</span>
+    <li class="checkbox">
+    <span class="name">Did push-ups?</span>
+    <input name="didpushups" type="checkbox" />
+    </li>
+    <li class="bigfield"><input placeholder="Minutes spent doing push-ups" name="name" type="text" /></li>
+    <li class="bigfield"><input placeholder="Times push-ups done" name="name" type="text" /></li>
+    <ul class="pageitem">
+    <li class="bigfield"><input placeholder="Minutes spent outside" name="name" type="text" /></li>
+    <span class="graytitle">How tired are you?</span>
+    <ul class="pageitem">
+    <li class="select">
+    <select name="education">
+    <option value="A little tired">Jr.High</option>
+    <option value="Moderately tired">HighSchool</option>
+    <option value="Very tired">College</option>
+    </select>
+    <span class="arrow"></span>
+    </li>
+    </ul>
   </body>
 </html>
