@@ -47,26 +47,13 @@
     </ul>
     <ul class = "pageitem">
     <script language = "javascript">
-////////////////////////////////////////////////////
-/**
- * writeTextFile write data to file on hard drive
- * @param  string  filepath   Path to file on hard drive
- * @param  sring   output     Data to be written
- */
-function writeTextFile(filepath, output) {
+function writeTextFile() {
 	var txtFile = new File("outside.txt");
 	txtFile.open("w"); //
-	txtFile.writeln(output);
+	txtFile.writeln(document.getElementById('minspentoutside').value);
 	txtFile.close();
 }
-
-////////////////////////////////////////////////////
-/**
- * readTextFile read data from file
- * @param  string   filepath   Path to file on hard drive
- * @return string              String with file data
- */
-function readTextFile(filepath) {
+function readTextFile() {
 	var str = "";
 	var txtFile = new File("outside.txt");
 	txtFile.open("r");
@@ -74,22 +61,12 @@ function readTextFile(filepath) {
 		// read each line of text
 		str += txtFile.readln() + "\n";
 	}
-	document.write(str);
-}
-function write() {
-document.write("I'm being run!");
-var minsoutside = document.getElementById('minspentoutside').value;
-writeTextFile("outside.txt", minsoutside);
-}
-function read() {
-    var x = readTextFile();
-    alert(x);
-    $("p").html(x);	
+	$("p").html(str);
 }
     </script>
-    <li class="menu"><a href = "javascript:write()">
+    <li class="menu"><a href = "javascript:writeTextFile()">
     <span class="name">Submit</span><span class="arrow"></span></a></li>
-    <li class="menu"><a href = "javascript:read()">
+    <li class="menu"><a href = "javascript:readTextFile()">
     <span class="name">Stats</span><span class="arrow"></span></a></li>
     <span class="graytitle">Minutes spent outside: </span>
     <p>...</p>
