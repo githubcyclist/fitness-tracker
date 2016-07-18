@@ -80,22 +80,19 @@ function write() {
 var minsoutside = document.getElementById('minspentoutside').value;
 writeTextFile("outside.txt", minsoutside);
 }
+function read() {
+    var x = readTextFile("outside.txt");
+    $("p").html(x);	
+}
     </script>
     <li class="menu"><a href = "javascript:write()">
     <span class="name">Submit</span><span class="arrow"></span></a></li>
-    <li class="menu"><id="reader">
+    <li class="menu"><a href = "javascript:read()">
     <span class="name">Stats</span><span class="arrow"></span></a></li>
     <span class="graytitle">Minutes spent outside: </span>
     <p></p>
     </ul>
     <script>
-    	$("#reader").click(function() {
-        	read();
-	});
-function read() {
-    var x = readTextFile("outside.txt");
-    $("p").html(x);	
-}
     </script>
   </body>
 </html>
