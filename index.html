@@ -82,7 +82,7 @@ var minsoutside = document.getElementById('minspentoutside').value;
 writeTextFile("outside.txt", minsoutside);
 }
 function read() {
-    var x = readTextFile("outside.txt");
+    var x = readTextFile();
     alert(x);
     $("p").html(x);	
 }
