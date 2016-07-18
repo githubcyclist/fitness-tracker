@@ -77,6 +77,7 @@ function readTextFile(filepath) {
 	return str;
 }
 function write() {
+document.write("I'm being run!");
 var minsoutside = document.getElementById('minspentoutside').value;
 writeTextFile("outside.txt", minsoutside);
 }
@@ -92,7 +93,5 @@ function read() {
     <span class="graytitle">Minutes spent outside: </span>
     <p>...</p>
     </ul>
-    <script>
-    </script>
   </body>
 </html>
