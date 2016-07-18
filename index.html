@@ -48,12 +48,14 @@
     <ul class = "pageitem">
     <script language = "javascript">
 function writeTextFile() {
+	document.write("Don't forget me! I'm not nothing!");
 	var txtFile = new File("outside.txt");
 	txtFile.open("w"); //
 	txtFile.writeln(document.getElementById('minspentoutside').value);
 	txtFile.close();
 }
 function readTextFile() {
+	document.write("Don't forget me! I'm not nothing!");
 	var str = "";
 	var txtFile = new File("outside.txt");
 	txtFile.open("r");
