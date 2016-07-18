@@ -46,15 +46,16 @@
     </li>
     </ul>
     <ul class = "pageitem">
-    <script>
+    <script language = "javascript">
 ////////////////////////////////////////////////////
 /**
  * writeTextFile write data to file on hard drive
  * @param  string  filepath   Path to file on hard drive
  * @param  sring   output     Data to be written
  */
+function create
 function writeTextFile(filepath, output) {
-	var txtFile = new File(filepath);
+	var txtFile = new File("outside.txt");
 	txtFile.open("w"); //
 	txtFile.writeln(output);
 	txtFile.close();
@@ -68,13 +69,13 @@ function writeTextFile(filepath, output) {
  */
 function readTextFile(filepath) {
 	var str = "";
-	var txtFile = new File(filepath);
+	var txtFile = new File("outside.txt");
 	txtFile.open("r");
 	while (!txtFile.eof) {
 		// read each line of text
 		str += txtFile.readln() + "\n";
 	}
-	return str;
+	document.write(str);
 }
 function write() {
 document.write("I'm being run!");
