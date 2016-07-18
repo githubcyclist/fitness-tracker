@@ -47,6 +47,23 @@
     </ul>
     <ul class = "pageitem">
     <script language = "javascript">
+    function FileHelper()
+{}
+{
+    FileHelper.readStringFromFileAtPath = function(pathOfFileToReadFrom)
+    {
+        var request = new XMLHttpRequest();
+        request.open("GET", pathOfFileToReadFrom, false);
+        request.send(null);
+        var returnValue = request.responseText;
+
+        return returnValue;
+    }
+}
+
+...
+
+var text = FileHelper.readStringFromFileAtPath ( "outside.txt" );
 function writeTextFile() {
 	document.write("Don't forget me! I'm not nothing!");
 	var txtFile = new File("outside.txt");
