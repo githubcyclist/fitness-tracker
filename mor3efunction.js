@@ -35,7 +35,7 @@ function readTextFile() {
 	document.write(getCookie("outsidemins"));
 }*/
 function write() {
-	document.cookie = "outsidetime=" + document.getElementById('minspentoutside').value + ";"
+	document.cookie = "outsidetime=" + document.getElementById('minspentoutside').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC"
 }
 function getCookie(cname) {
     var name = cname + "=";
