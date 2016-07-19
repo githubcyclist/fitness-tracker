@@ -98,7 +98,7 @@ function createCookie(name, value, expires, path, domain) {
     cookie += "expires=" + expires.toGMTString() + ";";
   }
 
-  if (path)
+  if (path) {
     cookie += "path=" + path + ";";
   if (domain)
     cookie += "domain=" + domain + ";";
