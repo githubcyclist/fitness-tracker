@@ -1,3 +1,5 @@
-timeoutside {
-  color: red
+.timeoutside {
+  font-family: helvetica;
+  text-align: center;
+  color: red;
 }
