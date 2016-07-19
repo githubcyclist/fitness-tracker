@@ -52,6 +52,6 @@ function getCookie(cname) {
     return "";
 } 
 function read() {
-	var thisisdacookie = getCookie("outsidetime");
-	document.write(thisisdacookie);
+	var thisisdacookie = "Time spent outside: " + getCookie("outsidetime");
+	$('.timeoutside').html(thisisdacookie);
 }
