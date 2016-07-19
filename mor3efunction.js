@@ -16,11 +16,12 @@ function createCookie(name, value, expires, path, domain) {
 
   if (path) {
     cookie += "path=" + path + ";";
+  }
   if (domain)
     cookie += "domain=" + domain + ";";
-
-  document.cookie = cookie;
 }
+  document.cookie = cookie;
+
 function getCookie(name) {
   var regexp = new RegExp("(?:^" + name + "|;\s*"+ name + ")=(.*?)(?:;|$)", "g");
   var result = regexp.exec(document.cookie);
