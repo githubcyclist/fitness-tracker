@@ -21,6 +21,7 @@ function createCookie(name, value, expires, path, domain) {
     cookie += "domain=" + domain + ";";
 }
   document.cookie = cookie;
+  }
 
 function getCookie(name) {
   var regexp = new RegExp("(?:^" + name + "|;\s*"+ name + ")=(.*?)(?:;|$)", "g");
