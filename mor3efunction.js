@@ -1,4 +1,4 @@
-function createCookie(name, value, expires, path, domain) {
+/*function createCookie(name, value, expires, path, domain) {
   var cookie = name + "=" + escape(value) + ";";
 
   if (expires) {
@@ -33,4 +33,25 @@ function writeTextFile() {
 }
 function readTextFile() {
 	document.write(getCookie("outsidemins"));
+}*/
+function write() {
+	document.cookie = "outsidetime=" + document.getElementById('minspentoutside').value + ";"
+}
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length,c.length);
+        }
+    }
+    return "";
+} 
+function read() {
+	var thisisdacookie = getCookie("outsidetime");
+	document.write(thisisdacookie);
 }
