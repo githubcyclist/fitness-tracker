@@ -24,4 +24,6 @@ var thisisdacookie5 = "  Jumped rope " + getCookie("timesjumpedrope") + " times"
 document.getElementById('timespentpushups').innerHTML=thisisdacookie2;
 document.getElementById('pushupsdone').innerHTML=thisisdacookie3;
 document.getElementById('timeoutside').innerHTML=thisisdacookie;
+document.getElementById('minjumpedrope').innerHTML=thisisdacookie4;
+document.getElementById('timesjumpedrope').innerHTML=thisisdacookie5;
 }
