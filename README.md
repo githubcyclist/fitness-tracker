@@ -1,6 +1,6 @@
 # fitness-tracker
 
-PROTIP! Does the browser you're using have Reading Mode? Use that!
+PROTIP! Does the browser you're using have Reading Mode? Use that to read this!
 
 ---DESCRIPTION---
 
