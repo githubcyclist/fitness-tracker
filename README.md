@@ -32,4 +32,12 @@ Press "Add".
 
 The app will install almost instantly. Enjoy! Don't bother to reinstall so you can update - it does that itself!
 
+(drumroll please :D) THE HARD METHOD (for techies):
 
+--Step One--
+
+Install "FileManager" by TapMedia from the App Store.
+
+--Step Two--
+
+Go to 
