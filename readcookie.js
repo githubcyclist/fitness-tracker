@@ -19,4 +19,5 @@ var thisisdacookie = "  Time spent outside: " + getCookie("outsidetime") + " min
 document.getElementById('timespentpushups').innerHTML=thisisdacookie2;
 document.getElementById('pushupsdone').innerHTML=thisisdacookie3;
 document.getElementById('timeoutside').innerHTML=thisisdacookie;
+document.cookie = "alltimespentoutside = " + (thisisdacookie+)
 }
