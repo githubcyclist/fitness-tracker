@@ -12,9 +12,11 @@ function getCookie(cname) {
     }
     return "";
 }
+function add(a,b){
+    return a-(-b);
+}
 function read() {
-// document.cookie = "alltimespentoutside = " + (thisisdacookiealltime+document.getElementById('minspentoutside').value) + ";" + "expires=Thu, Jan 1, 3000 12:00:00 UTC;";
-document.cookie = "alltimespentoutside = " + 0 + ";" + "expires=Thu, Jan 1, 3000 12:00:00 UTC;";
+document.cookie = "alltimespentoutside = " + (thisisdacookiealltime+document.getElementById('minspentoutside').value) + ";" + "expires=Thu, Jan 1, 3000 12:00:00 UTC;";
 var thisisdacookie2 = "  Time spent doing push-ups: " + getCookie("timespentpushups") + " minutes";
 var thisisdacookie3 = "  Push-ups done " + getCookie("pushupsdone") + " times";
 var thisisdacookie = "  Time spent outside: " + getCookie("outsidetime") + " minutes";
