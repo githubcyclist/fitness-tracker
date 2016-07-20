@@ -55,7 +55,7 @@ function getCookie(cname) {
 } 
 function read() {
 	var thisisdacookie2 = "  Time spent doing push-ups: " + getCookie("timespentpushups") + " minutes";
-	var thisisdacookie3 = "  " + getCookie("pushupsdone") + " times";
+	var thisisdacookie3 = "  Push-ups done " + getCookie("pushupsdone") + " times";
 	var thisisdacookie = "  Time spent outside: " + getCookie("outsidetime") + " minutes";
 	document.getElementById('timespentpushups').innerHTML=thisisdacookie2;
 	document.getElementById('pushupsdone').innerHTML=thisisdacookie3;
