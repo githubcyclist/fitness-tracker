@@ -1,3 +1,4 @@
+// original name mor3efunction.js
 /*function createCookie(name, value, expires, path, domain) {
   var cookie = name + "=" + escape(value) + ";";
 
