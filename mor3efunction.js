@@ -38,5 +38,7 @@ function write() {
 	document.cookie = "outsidetime=" + document.getElementById('minspentoutside').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC"
 	document.cookie = "timespentpushups=" + document.getElementById('minspentpushups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC"
 	document.cookie = "pushupsdone=" + document.getElementById('timesdonepushups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC"
+	document.cookie = "timespentjumprope=" + document.getElementById('minspentjumprope').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC"
+	document.cookie = "timesjumpedrope=" + document.getElementById('timesjumpedrope').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC"
 }
 
