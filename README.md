@@ -1,5 +1,7 @@
 # fitness-tracker
 
+PROTIP! Does the browser you're using have Reading Mode? Use that!
+
 ---DESCRIPTION---
 
 This is a simple iOS web app for tracking your progress when exercising.
