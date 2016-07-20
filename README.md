@@ -30,4 +30,6 @@ Press "Add".
 
 --Step 6--
 
-The app will install almost instantly. Enjoy!
+The app will install almost instantly. Enjoy! Don't bother to reinstall so you can update - it does that itself!
+
+
