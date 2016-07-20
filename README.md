@@ -40,7 +40,7 @@ Install "FileManager" by TapMedia from the App Store.
 
 --Step Two--
 
-Go to https://github.com/githubcyclist/fitness-tracker/archive/master.zip
+Go to https://github.com/githubcyclist/fitness-tracker/archive/master.zip or go to https://github.com/githubcyclist/fitness-tracker/, select "Clone or download", and then "Download ZIP".
 
 --Step Three--
 
