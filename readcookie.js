@@ -13,11 +13,13 @@ function getCookie(cname) {
     return "";
 }
 function read() {
+document.cookie = "alltimespentoutside = " + (thisisdacookiealltime+document.getElementById('minspentoutside').value) + ";";
 var thisisdacookie2 = "  Time spent doing push-ups: " + getCookie("timespentpushups") + " minutes";
 var thisisdacookie3 = "  Push-ups done " + getCookie("pushupsdone") + " times";
 var thisisdacookie = "  Time spent outside: " + getCookie("outsidetime") + " minutes";
+var thisisdacookiealltime = "  Time spent outside (all time): " + getCookie("alltimespentoutside") + " minutes";
 document.getElementById('timespentpushups').innerHTML=thisisdacookie2;
 document.getElementById('pushupsdone').innerHTML=thisisdacookie3;
 document.getElementById('timeoutside').innerHTML=thisisdacookie;
-document.cookie = "alltimespentoutside = " + (thisisdacookie+document.getElementById('minspentoutside').value) + ";";
+document.getElementById('alltimespentoutside').innerHTML=thisisdacookie;
 }
