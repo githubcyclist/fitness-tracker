@@ -54,11 +54,10 @@ function getCookie(cname) {
     return "";
 } 
 function read() {
-	var thisisdacookie = " " + getCookie("outsidetime");
-	var thisisdacookie2 = " " + getCookie("timespentpushups");
-	var thisisdacookie3 = " " + getCookie("pushupsdone");
-	document.getElementById('timeoutside').innerHTML=thisisdacookie;
+	var thisisdacookie2 = "  Time spent doing push-ups: " + getCookie("timespentpushups") + " minutes";
+	var thisisdacookie3 = "  " + getCookie("pushupsdone") + " times";
+	var thisisdacookie = "  Time spent outside: " + getCookie("outsidetime") + " minutes";
 	document.getElementById('timespentpushups').innerHTML=thisisdacookie2;
 	document.getElementById('pushupsdone').innerHTML=thisisdacookie3;
-	
+	document.getElementById('timeoutside').innerHTML=thisisdacookie;
 }
