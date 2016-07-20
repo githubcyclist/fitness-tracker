@@ -19,7 +19,7 @@ function read() {
 var thisisdacookie = "  Time spent outside: " + getCookie("outsidetime") + " minutes";
 var thisisdacookie2 = "  Time spent doing push-ups: " + getCookie("timespentpushups") + " minutes";
 var thisisdacookie3 = "  Push-ups done " + getCookie("pushupsdone") + " times";
-var thisisdacookie4 = "  Jumped rope for " + getCookie("timespentjumpedrope") + " minutes";
+var thisisdacookie4 = "  Jumped rope for " + getCookie("timespentjumprope") + " minutes";
 var thisisdacookie5 = "  Jumped rope " + getCookie("timesjumpedrope") + " times";
 document.getElementById('timespentpushups').innerHTML=thisisdacookie2;
 document.getElementById('pushupsdone').innerHTML=thisisdacookie3;
