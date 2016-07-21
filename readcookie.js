@@ -24,6 +24,4 @@ var thisisdacookie7 = "  Pull-ups done " + getCookie("pullupsdone") + " times";
 document.getElementById('timespentpushups').innerHTML=thisisdacookie2;
 document.getElementById('pushupsdone').innerHTML=thisisdacookie3;
 document.getElementById('timeoutside').innerHTML=thisisdacookie;
-document.getElementById('timespentpullups').innerHTML=thisisdacookie6;
-document.getElementById('pullupsdone').innerHTML=thisisdacookie7;
 }
