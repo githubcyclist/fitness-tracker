@@ -19,8 +19,6 @@ function read() {
 var thisisdacookie = "  Time spent outside: " + getCookie("outsidetime") + " minutes";
 var thisisdacookie2 = "  Time spent doing push-ups: " + getCookie("timespentpushups") + " minutes";
 var thisisdacookie3 = "  Push-ups done " + getCookie("pushupsdone") + " times";
-var thisisdacookie6 = "  Time spent doing pull-ups: " + getCookie("timespentpullups") + " minutes";
-var thisisdacookie7 = "  Pull-ups done " + getCookie("pullupsdone") + " times";
 document.getElementById('timespentpushups').innerHTML=thisisdacookie2;
 document.getElementById('pushupsdone').innerHTML=thisisdacookie3;
 document.getElementById('timeoutside').innerHTML=thisisdacookie;
