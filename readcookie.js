@@ -19,15 +19,11 @@ function read() {
 var thisisdacookie = "  Time spent outside: " + getCookie("outsidetime") + " minutes";
 var thisisdacookie2 = "  Time spent doing push-ups: " + getCookie("timespentpushups") + " minutes";
 var thisisdacookie3 = "  Push-ups done " + getCookie("pushupsdone") + " times";
-var thisisdacookie4 = "  Jumped rope for " + getCookie("timespentjumprope") + " minutes";
-var thisisdacookie5 = "  Jumped rope " + getCookie("timesjumpedrope") + " times";
 var thisisdacookie6 = "  Time spent doing pull-ups: " + getCookie("timespentpullups") + " minutes";
 var thisisdacookie7 = "  Pull-ups done " + getCookie("pullupsdone") + " times";
 document.getElementById('timespentpushups').innerHTML=thisisdacookie2;
 document.getElementById('pushupsdone').innerHTML=thisisdacookie3;
 document.getElementById('timeoutside').innerHTML=thisisdacookie;
-document.getElementById('minjumpedrope').innerHTML=thisisdacookie4;
-document.getElementById('timesjumpedrope').innerHTML=thisisdacookie5;
-document.getElementById('minjumpedrope').innerHTML=thisisdacookie6;
-document.getElementById('timesjumpedrope').innerHTML=thisisdacookie7;
+document.getElementById('pullupsdone').innerHTML=thisisdacookie6;
+document.getElementById('timespentpullups').innerHTML=thisisdacookie7;
 }
