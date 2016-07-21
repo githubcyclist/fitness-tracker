@@ -1,3 +1,4 @@
+--JAVASCRIPT--
 function createCookie(name, value, expires, path, domain) {
   var cookie = name + "=" + escape(value) + ";";
 
@@ -34,3 +35,6 @@ function writeTextFile() {
 function readTextFile() {
 	document.write(getCookie("outsidemins"));
 }
+--HTML--
+<li class="bigfield"><input placeholder="Minutes spent jumping rope" name="name" type="text" id = "minspentjumprope"/></li>
+<li class="bigfield"><input placeholder="Times jumped rope" name="name" type="text" id = "timesjumpedrope" /></li>
