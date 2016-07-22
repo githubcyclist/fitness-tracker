@@ -5,10 +5,8 @@ find out what the name of an element is. *This does not matter to regular users 
 
 --THE GOODIES :D--
 
-Div ids:
+Div id & cookie name of minutes spent jumping rope: "timespentjumprope"
 
-Div id for minutes spent jumping rope: "timespentjumprope"
-
-Div id for times jumped rope: "jumpsdone"
+Div id & cookie name of times jumped rope: "jumpsdone"
 
 Div id for minutes spent outside: "timeoutside"
