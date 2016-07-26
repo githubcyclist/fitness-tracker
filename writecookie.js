@@ -20,6 +20,7 @@ function write() {
         document.cookie = "timespentpullups=" + document.getElementById('minspentpullups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;";
 	document.cookie = "pullupsdone=" + document.getElementById('timesdonepullups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;";
 	if (localStorage.getItem('timesexercised') === null) {
+		console.log("I'm being run!");
 		localStorage.setItem('timesexercised', 0);
 		var timesexercised = localStorage.getItem('timesexercised');
 		timesexercised += 1
