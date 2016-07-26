@@ -27,6 +27,7 @@ function write() {
 		localStorage.setItem('timesexercised', timesexercised);*/
 	//} else {
 		var timesexercised = localStorage.getItem('timesexercised');
+		document.write(timesexercised);
 		timesexercised += 1
 		localStorage.setItem('timesexercised', timesexercised);
 	//}
