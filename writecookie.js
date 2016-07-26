@@ -25,6 +25,7 @@ function write() {
 	var timesexercised = parseInt(getCookie("timesexercised"));
 	timesexercised += 1
 	document.cookie = "timesexercised=" + timesexercised + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;";
+	console.log(getCookie("timesexercised"));
 	/* Code I was originally was gonna use to track times exercised, but abandoned in favor of cookies
 	var mydomstorage=window.localStorage || (window.globalStorage? globalStorage[location.hostname] : null)
 	if(mydomstorage){
