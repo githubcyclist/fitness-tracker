@@ -28,9 +28,9 @@ function write() {
 	//} else {
 		localStorage.setItem('timesexercised', 0);
 		var timesexercised = localStorage.getItem('timesexercised');
-		document.write(timesexercised);
 		timesexercised += 1
 		localStorage.setItem('timesexercised', timesexercised);
+		document.write(timesexercised);
 	//}
 	
 }
