@@ -20,7 +20,7 @@ function write() {
         document.cookie = "timespentpullups=" + document.getElementById('minspentpullups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;";
 	document.cookie = "pullupsdone=" + document.getElementById('timesdonepullups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;";
 	var mydomstorage=window.localStorage || (window.globalStorage? globalStorage[location.hostname] : null)
-	//if(mydomstorage){
+	if(mydomstorage){
 		if (localStorage.getItem('timesexercised') == null) {
 			localStorage.setItem('timesexercised', 0);
 			var timesexercised = localStorage.getItem('timesexercised');
@@ -32,7 +32,7 @@ function write() {
 			localStorage.setItem('timesexercised', timesexercised);
 			console.log(timesexercised);
 		}
-	//} else {
+	} else {
 		//document.write("Sorry, this browser does not support DOM storage.");
-//	}
+	}
 }
