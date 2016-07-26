@@ -30,6 +30,6 @@ function write() {
 		var timesexercised = parseInt(localStorage.getItem('timesexercised'));
 		timesexercised = timesexercised + 1
 		localStorage.setItem('timesexercised', timesexercised);
-		document.write(timesexercised);
+		console.log(timesexercised);
 	//}
 }
