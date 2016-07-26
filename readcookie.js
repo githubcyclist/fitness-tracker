@@ -28,5 +28,5 @@ document.getElementById('timeoutside').innerHTML=thisisdacookie;
 document.getElementById('timespentpullups').innerHTML=thisisdacookie4;
 document.getElementById('pullupsdone').innerHTML=thisisdacookie5;
 //document.getElementById('timesexercised').innerHTML=thisisdacookie6;
-document.write(thisisdacookie6);
+console.log("  Exercised " + localStorage.getItem('timesexercised') + " times");
 }
