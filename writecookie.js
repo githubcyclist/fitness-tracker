@@ -21,7 +21,7 @@ function write() {
 	document.cookie = "pullupsdone=" + document.getElementById('timesdonepullups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;";
 	var mydomstorage=window.localStorage || (window.globalStorage? globalStorage[location.hostname] : null)
 	//if(mydomstorage){
-		if (localStorage.getItem('timesexercised') === null) {
+		if (localStorage.getItem('timesexercised') == null) {
 			localStorage.setItem('timesexercised', 0);
 			var timesexercised = localStorage.getItem('timesexercised');
 			timesexercised += 1
