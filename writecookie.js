@@ -23,11 +23,13 @@ function write() {
 	if(mydomstorage){
 		localStorage.removeItem('timesexercised');
 		if (localStorage.getItem('timesexercised') == null) {
+			console.log("Slihih");
 			localStorage.setItem('timesexercised', 0);
 			var timesexercised = localStorage.getItem('timesexercised');
 			timesexercised += 1
 			localStorage.setItem('timesexercised', timesexercised);
 		} else {
+			console.log("sclips");
 			var timesexercised = parseInt(localStorage.getItem('timesexercised'));
 			timesexercised = timesexercised + 1
 			localStorage.setItem('timesexercised', timesexercised);
