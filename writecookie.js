@@ -19,15 +19,15 @@ function write() {
 	document.cookie = "pushupsdone=" + document.getElementById('timesdonepushups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;"
         document.cookie = "timespentpullups=" + document.getElementById('minspentpullups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;";
 	document.cookie = "pullupsdone=" + document.getElementById('timesdonepullups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;";
-	//if (localStorage.getItem('timesexercised') === null) {
+	if (localStorage.getItem('timesexercised') === null) {
 		localStorage.setItem('timesexercised', 0);
 		var timesexercised = localStorage.getItem('timesexercised');
 		timesexercised += 1
 		localStorage.setItem('timesexercised', timesexercised);
-	/*} else {
+	} else {
 		var timesexercised = localStorage.getItem('timesexercised');
 		timesexercised += 1
 		localStorage.setItem('timesexercised', timesexercised);
-	}*/
+	}
 	
 }
