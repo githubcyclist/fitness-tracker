@@ -33,6 +33,6 @@ function write() {
 			console.log(timesexercised);
 		}
 	} else {
-		//document.write("Sorry, this browser does not support DOM storage.");
+		document.write("Sorry, this browser does not support DOM storage.");
 	}
 }
