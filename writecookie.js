@@ -19,7 +19,7 @@ function write() {
 	document.cookie = "pushupsdone=" + document.getElementById('timesdonepushups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;"
         document.cookie = "timespentpullups=" + document.getElementById('minspentpullups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;";
 	document.cookie = "pullupsdone=" + document.getElementById('timesdonepullups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;";
-	var mydomstorage=window.localStorage || (window.globalStorage? globalStorage[location.hostname] : null)
+	/*var mydomstorage=window.localStorage || (window.globalStorage? globalStorage[location.hostname] : null)
 	if(mydomstorage){
 		if (localStorage.getItem('timesexercised') == null) {
 			localStorage.setItem('timesexercised', 0);
@@ -34,5 +34,5 @@ function write() {
 		}
 	} else {
 		//document.write("Sorry, this browser does not support DOM storage.");
-	}
+	}*/
 }
