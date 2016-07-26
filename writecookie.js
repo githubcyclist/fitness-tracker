@@ -22,7 +22,7 @@ function write() {
 	var mydomstorage=window.localStorage || (window.globalStorage? globalStorage[location.hostname] : null)
 	if(mydomstorage){
 		localStorage.removeItem('timesexercised');
-		if (localStorage.getItem('timesexercised') === null) {
+		if (localStorage.getItem('timesexercised') == null) {
 			localStorage.setItem('timesexercised', 0);
 			var timesexercised = localStorage.getItem('timesexercised');
 			timesexercised += 1
