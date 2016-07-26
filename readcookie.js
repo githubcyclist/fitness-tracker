@@ -21,11 +21,11 @@ var thisisdacookie2 = "  Time spent doing push-ups: " + getCookie("timespentpush
 var thisisdacookie3 = "  Push-ups done " + getCookie("pushupsdone") + " times";
 var thisisdacookie4 = "  Time spent doing pull-ups: " + getCookie("timespentpullups") + " minutes";
 var thisisdacookie5 = "  Pull-ups done " + getCookie("pullupsdone") + " times";
-var thisisdacookie6 = "  Exercised " + parseInt(localStorage.getItem('timesexercised')) + " times";
+//var thisisdacookie6 = "  Exercised " + parseInt(localStorage.getItem('timesexercised')) + " times";
 document.getElementById('timespentpushups').innerHTML=thisisdacookie2;
 document.getElementById('pushupsdone').innerHTML=thisisdacookie3;
 document.getElementById('timeoutside').innerHTML=thisisdacookie;
 document.getElementById('timespentpullups').innerHTML=thisisdacookie4;
 document.getElementById('pullupsdone').innerHTML=thisisdacookie5;
-document.getElementById('timesexercised').innerHTML=thisisdacookie6;
+//document.getElementById('timesexercised').innerHTML=thisisdacookie6;
 }
