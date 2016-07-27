@@ -24,9 +24,9 @@ function write() {
 		document.cookie = "timesexercised=0;expires=Thu, 1 Jan 3000 12:00:00 UTC;";
 	}
 	var timesexercised = parseInt(getCookie("timesexercised"));
-	console.log(timesexercised);
+	document.write(timesexercised);
 	timesexercised += 1
-	console.log(timesexercised);
+	//console.log(timesexercised);
 	document.cookie = "timesexercised=" + timesexercised + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;";
 	} catch (e) {
 		console.log(e);
