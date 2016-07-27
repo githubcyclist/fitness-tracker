@@ -20,11 +20,12 @@ function write() {
         document.cookie = "timespentpullups=" + document.getElementById('minspentpullups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;";
 	document.cookie = "pullupsdone=" + document.getElementById('timesdonepullups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;";
 	try {
-	if (getCookie("timesexercised") === null) {
+	if (getCookie("timesexercised") == null) {
+		document.write("dfjasd");
 		document.cookie = "timesexercised=0;expires=Thu, 1 Jan 3000 12:00:00 UTC;";
 	}
 	var timesexercised = parseInt(getCookie("timesexercised"));
-	document.write(timesexercised);
+	//document.write(timesexercised);
 	timesexercised += 1
 	//console.log(timesexercised);
 	document.cookie = "timesexercised=" + timesexercised + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;";
