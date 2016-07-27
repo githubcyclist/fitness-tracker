@@ -19,7 +19,8 @@ function write() {
 	document.cookie = "pushupsdone=" + document.getElementById('timesdonepushups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;"
         document.cookie = "timespentpullups=" + document.getElementById('minspentpullups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;";
 	document.cookie = "pullupsdone=" + document.getElementById('timesdonepullups').value + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;";
-	if (getCookie("timesexercised") == null) {
+	var cookie = getCookie("timesexercised");
+	if (cookie == null) {
 		document.write("dfjasd");
 		document.cookie = "timesexercised=0;expires=Thu, 1 Jan 3000 12:00:00 UTC;";
 	}
