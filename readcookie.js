@@ -16,6 +16,7 @@ function add(a,b){
     return a-(-b);
 }
 function read() {
+var mydomstorage=window.localStorage || (window.globalStorage? globalStorage[location.hostname] : null)
 var thisisdacookie = "  Time spent outside: " + getCookie("outsidetime") + " minutes";
 var thisisdacookie2 = "  Time spent doing push-ups: " + getCookie("timespentpushups") + " minutes";
 var thisisdacookie3 = "  Push-ups done " + getCookie("pushupsdone") + " times";
