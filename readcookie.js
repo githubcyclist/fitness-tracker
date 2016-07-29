@@ -24,6 +24,7 @@ var thisisdacookie4 = "  Time spent doing pull-ups: " + getCookie("timespentpull
 var thisisdacookie5 = "  Pull-ups done " + getCookie("pullupsdone") + " times";
 if(mydomstorage) {
 	var thisisdacookie6 = "  Exercised " + parseInt(localstorage.getItem('timesexercised')) + " times";
+	document.getElementById('timesexercised').innerHTML=thisisdacookie6;
 } else {
 	document.write("Sorry, this browser does not support DOM storage.");
 }
@@ -32,9 +33,3 @@ document.getElementById('pushupsdone').innerHTML=thisisdacookie3;
 document.getElementById('timeoutside').innerHTML=thisisdacookie;
 document.getElementById('timespentpullups').innerHTML=thisisdacookie4;
 document.getElementById('pullupsdone').innerHTML=thisisdacookie5;
-if (mydomstorage) {
-	document.getElementById('timesexercised').innerHTML=thisisdacookie6;
-} else {
-	document.write("Sorry, this browser does not support DOM storage.");
-}
-}
