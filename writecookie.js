@@ -49,3 +49,12 @@ function write() {
 		document.write("Sorry, this browser does not support DOM storage.");
 	}
 }
+function reset() {
+	var mydomstorage=window.localStorage || (window.globalStorage? globalStorage[location.hostname] : null)
+	if(mydomstorage){
+		localstorage.removeItem('timesexercised');
+	} else {
+		document.write("Sorry, this browser does not support DOM storage.");
+	}
+	}
+}
