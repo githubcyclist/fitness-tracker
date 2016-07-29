@@ -43,6 +43,7 @@ function write() {
 			timesexercised = timesexercised + 1
 			localStorage.setItem('timesexercised', parseInt(timesexercised));
 			console.log(timesexercised);
+			document.cookie = "timesexercised=" + timesexercised + ";" + "expires=Thu, 1 Jan 3000 12:00:00 UTC;";
 		}
 	} else {
 		document.write("Sorry, this browser does not support DOM storage.");
