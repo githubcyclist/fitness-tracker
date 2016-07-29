@@ -25,7 +25,7 @@ var thisisdacookie5 = "  Pull-ups done " + getCookie("pullupsdone") + " times";
 if(mydomstorage) {
 	var thisisdacookie6 = "  Exercised " + parseInt(localstorage.getItem('timesexercised')) + " times";
 } else {
-	
+	document.write("Sorry, this browser does not support DOM storage.");
 }
 document.getElementById('timespentpushups').innerHTML=thisisdacookie2;
 document.getElementById('pushupsdone').innerHTML=thisisdacookie3;
