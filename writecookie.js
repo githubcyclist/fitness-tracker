@@ -56,5 +56,4 @@ function reset() {
 	} else {
 		document.write("Sorry, this browser does not support DOM storage.");
 	}
-	}
 }
