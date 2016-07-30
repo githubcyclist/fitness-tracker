@@ -53,6 +53,7 @@ function reset() {
 	var mydomstorage=window.localStorage || (window.globalStorage? globalStorage[location.hostname] : null)
 	if(window.localStorage){
 		localStorage.removeItem('timesexercised');
+		document.cookie = "timesexercised=" + timesexercised + ";" + "expires=Thu, 1 Jan 1970 12:00:00 UTC;";
 	} else {
 		document.write("Sorry, this browser does not support DOM storage.");
 	}
