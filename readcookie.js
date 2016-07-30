@@ -33,6 +33,7 @@ if(mydomstorage) {
 }*/
 if(thisisdacookie6 == "Exercised times") {
 	thisisdacookie6 = "Exercised once"
+	console.log(thisisdacookie6);
 }
 document.getElementById('timespentpushups').innerHTML=thisisdacookie2;
 document.getElementById('pushupsdone').innerHTML=thisisdacookie3;
