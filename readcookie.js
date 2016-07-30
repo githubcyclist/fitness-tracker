@@ -22,7 +22,7 @@ var thisisdacookie2 = "  Time spent doing push-ups: " + getCookie("timespentpush
 var thisisdacookie3 = "  Push-ups done " + getCookie("pushupsdone") + " times";
 var thisisdacookie4 = "  Time spent doing pull-ups: " + getCookie("timespentpullups") + " minutes";
 var thisisdacookie5 = "  Pull-ups done " + getCookie("pullupsdone") + " times";
-var thisisdacookie6 = "  Exercised " + getCookie("timesexercised") + " times";
+var thisisdacookie6 = "  Exercised " + parseInt(getCookie("timesexercised")) + " times";
 /*Old code to read localstorage
 var mydomstorage=window.localStorage || (window.globalStorage? globalStorage[location.hostname] : null)
 if(mydomstorage) {
