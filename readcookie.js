@@ -31,6 +31,9 @@ if(mydomstorage) {
 } else {
 	document.write("Sorry, this browser does not support DOM storage.");
 }*/
+if(thisisdacookie6 == "Exercised times") {
+	thisisdacookie6 = "Exercised once"
+}
 document.getElementById('timespentpushups').innerHTML=thisisdacookie2;
 document.getElementById('pushupsdone').innerHTML=thisisdacookie3;
 document.getElementById('timeoutside').innerHTML=thisisdacookie;
