@@ -51,7 +51,7 @@ function write() {
 }
 function reset() {
 	var mydomstorage=window.localStorage || (window.globalStorage? globalStorage[location.hostname] : null)
-	if(mydomstorage){
+	if(window.localStorage){
 		localstorage.removeItem('timesexercised');
 	} else {
 		document.write("Sorry, this browser does not support DOM storage.");
