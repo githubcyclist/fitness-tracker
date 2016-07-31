@@ -35,10 +35,10 @@ if(thisisdacookie6 == "Exercised times") {
 	thisisdacookie6 = "Exercised once"
 	console.log(thisisdacookie6);
 }
-document.getElementById('timespentpushups').innerHTML="<span style=\"color: #ADD8E6; font-family: georgia;\">" + thisisdacookie2 + "</span>";
-document.getElementById('pushupsdone').innerHTML= "<span style=\"color: #ADD8E6; font-family: georgia;\">" + thisisdacookie3 + "</span>";
-document.getElementById('timeoutside').innerHTML= "<span style=\"color: #ADD8E6; font-family: georgia;\">" + thisisdacookie + "</span>";
-document.getElementById('timespentpullups').innerHTML= "<span style=\"color: #ADD8E6; font-family: georgia;\">" + thisisdacookie4 + "</span>";
-document.getElementById('pullupsdone').innerHTML= "<span style=\"color: #ADD8E6; font-family: georgia;\">" + thisisdacookie5 + "</span>";
-document.getElementById('timesexercised').innerHTML= "<span style=\"color: #ADD8E6; font-family: georgia;\">" + thisisdacookie6 + "</span>";
+document.getElementById('timespentpushups').innerHTML="<span style=\"color: #00FFFF; font-family: georgia;\">" + thisisdacookie2 + "</span>";
+document.getElementById('pushupsdone').innerHTML= "<span style=\"color: #00FFFF; font-family: georgia;\">" + thisisdacookie3 + "</span>";
+document.getElementById('timeoutside').innerHTML= "<span style=\"color: #00FFFF; font-family: georgia;\">" + thisisdacookie + "</span>";
+document.getElementById('timespentpullups').innerHTML= "<span style=\"color: #00FFFF; font-family: georgia;\">" + thisisdacookie4 + "</span>";
+document.getElementById('pullupsdone').innerHTML= "<span style=\"color: #00FFFF; font-family: georgia;\">" + thisisdacookie5 + "</span>";
+document.getElementById('timesexercised').innerHTML= "<span style=\"color: #00FFFF; font-family: georgia;\">" + thisisdacookie6 + "</span>";
 }
