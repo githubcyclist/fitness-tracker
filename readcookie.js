@@ -37,7 +37,7 @@ if(thisisdacookie6 == "Exercised times") {
 }
 document.getElementById('timespentpushups').innerHTML=thisisdacookie2;
 document.getElementById('pushupsdone').innerHTML=thisisdacookie3;
-document.getElementById('timeoutside').innerHTML= "\<span style="color: red; font-family: georgia; text-align: center; "\>" + thisisdacookie + "</span>";
+document.getElementById('timeoutside').innerHTML= "<span style=\"color: red; font-family: georgia; text-align: center; \">" + thisisdacookie + "</span>";
 document.getElementById('timespentpullups').innerHTML=thisisdacookie4;
 document.getElementById('pullupsdone').innerHTML=thisisdacookie5;
 document.getElementById('timesexercised').innerHTML=thisisdacookie6;
