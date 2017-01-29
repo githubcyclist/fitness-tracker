@@ -1,4 +1,5 @@
 # fitness-tracker
+## Note: NO LONGER UPDATED
 
 PROTIP! Does the browser you're using have Reading Mode? Use that to read this!
 
